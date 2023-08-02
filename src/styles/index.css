@@ -1,0 +1,12 @@
+#root{
+    display: flex;
+    padding: 50px;
+}
+aside{
+    width: 25%;
+    margin: 50px;
+}
+main{
+    width: 70%; 
+    margin-left: 30%;
+}
