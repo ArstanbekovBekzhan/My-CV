@@ -1,0 +1,32 @@
+.aside{
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 94%;
+    text-align: center;
+    margin-left: 7%;
+}
+.aside *{
+    margin: 25px auto;
+}
+.aside_top{
+    border-bottom: #333333 1px solid;
+    padding: 20px 0;
+}
+.aside_top_avatarka{
+    width: 150px;
+    height: 150px;
+    background: #333333;
+    border-radius: 20px;
+}
+.aside_top_avatarka img{
+    margin: 0;
+}
+.aside_top_job_title{
+    font-size: 17px;
+    font-weight: 200;
+    padding: 10px;
+    background: #333333;
+    border-radius: 20px;
+}
