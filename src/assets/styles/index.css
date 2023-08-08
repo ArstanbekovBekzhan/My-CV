@@ -31,7 +31,15 @@ img{
     width: 100%;
     height: 100%;
 }
+svg{
+    width: 50%;
+    height: 50%;
+}
 .icons{
     fill: #fcd26b;
     color: #fcd26b;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

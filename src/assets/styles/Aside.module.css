@@ -6,6 +6,7 @@
     height: 94%;
     text-align: center;
     margin-left: 7%;
+    overflow-y: auto;
 }
 .aside *{
     margin: 25px auto;
@@ -19,6 +20,7 @@
     height: 150px;
     background: #333333;
     border-radius: 20px;
+    margin-top: 0;
 }
 .aside_top_avatarka img{
     margin: 0;
@@ -29,4 +31,50 @@
     padding: 10px;
     background: #333333;
     border-radius: 20px;
+}
+.aside_contact_item{
+    display: flex;
+    align-items: center;
+}
+.aside_contact_item *{
+    margin: 0;
+}
+.aside_contact_item_text{
+    width: 50%;
+    line-height: 20px;
+}
+.aside_contact_item_isons{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    fill: currentcolor;
+    box-shadow: var(    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125););
+    background: linear-gradient(
+        to bottom right, 
+        hsl(0, 0%, 25%) 0%, 
+        hsla(0, 0%, 25%, 0) 50%
+      );
+}
+.aside_contact_item_text h5{
+    color: hsla(0, 0%, 84%, 0.7);
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.aside_contact_item_text p{
+    font-size: 16px;
+}
+.aside_contact_item_isons::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: hsl(240, 2%, 13%);
+    border-radius: inherit;
+    z-index: -1;
 }
