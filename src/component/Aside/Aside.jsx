@@ -47,7 +47,7 @@ const Aside = () => {
       id: 6,
       ison: <IoLogoWhatsapp className='icons'/>,
       contactName: "whatsapp",
-      contactText: "@Ar_bekzhan",
+      contactText: "",
       links2: "https://t.me/Ar_bekzhan"
     }
   ]
@@ -72,7 +72,7 @@ const Aside = () => {
           </div>
           <div className={AStyle.aside_contact_item_text}>
             <h5>{contacts.contactName}</h5>
-            <p>{contacts.contactText}</p>
+            <p>{contacts.contactText}</p> 
           </div>
         </a>
         ))

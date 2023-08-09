@@ -11,7 +11,7 @@
     background: #121212;
 }
 aside{
-    width: 20%;
+    width: 22%;
 }
 main{
     width: 60%; 
@@ -41,5 +41,4 @@ svg{
 }
 a{
     text-decoration: none;
-    color: black;
 }
